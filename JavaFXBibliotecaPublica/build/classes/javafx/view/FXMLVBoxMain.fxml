@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.controller.FXMLVBoxMainController">
+   <children>
+      <MenuBar prefHeight="19.0" prefWidth="900.0" />
+      <AnchorPane fx:id="anchorPane" prefHeight="631.0" prefWidth="900.0">
+         <children>
+            <Button fx:id="TemaFundo" layoutX="2.0" mnemonicParsing="false" prefHeight="636.0" prefWidth="194.0" styleClass="im1" stylesheets="@../css/fxmlcss.css" />
+            <Button fx:id="buttonCadastroClientes" layoutX="242.0" layoutY="227.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="173.0" text="Cadastrar Cliente" />
+            <Text fx:id="Tema" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Biblioteca Pública" textAlignment="CENTER" wrappingWidth="900.0">
+               <font>
+                  <Font name="Arial Bold" size="32.0" />
+               </font>
+            </Text>
+            <Text layoutX="263.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seja Bem Vindo !" textAlignment="CENTER" wrappingWidth="378.671875">
+               <font>
+                  <Font name="Gigi" size="33.0" />
+               </font>
+            </Text>
+            <Button fx:id="buttonCadastroLivros" layoutX="242.0" layoutY="389.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="173.0" text="Cadastrar Livros" />
+            <Button fx:id="buttonRegistrarEmprestimos" layoutX="494.0" layoutY="227.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="173.0" text="Registrar Emprétimos" />
+            <Button fx:id="buttonRegistrarDevolucoes" layoutX="494.0" layoutY="389.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="173.0" text="Registrar Devoluçoes" />
+            <Button fx:id="buttonSair" layoutX="775.0" layoutY="581.0" mnemonicParsing="false" onAction="#handleButtonSair" prefHeight="35.0" prefWidth="98.0" text="Sair do Sistema" />
+         </children></AnchorPane>
+   </children>
+</VBox>
